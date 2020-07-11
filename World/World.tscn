@@ -37,3 +37,10 @@ position = Vector2( 64, 144 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 16, 160 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+offset = Vector2( 0, -8 )
+current = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
